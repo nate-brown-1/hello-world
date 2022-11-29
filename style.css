@@ -57,7 +57,12 @@ nav ul {
     vertical-align: top;
     width: 22%;
     margin-top: 20px;
-    min-height: 600px;
+    min-height: 700px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
