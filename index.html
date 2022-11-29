@@ -5,9 +5,12 @@
 <head>
     <title>Expanding Universe Caterers | Sustenance for Space Travel</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+
 </head>
 
 <body>
+
     <header>
         <h1>Expanding Universe Caterers</h1>
         <nav>
@@ -23,8 +26,20 @@
     
     <main>
         <section id="index-section">
-            <h2>What we offer for space travelers</h2>
+            <h2> 
+                <script>
+                    document.write("Welcome to our site, ", userName);
+                </script>
+            </h2>
             <img src="nasa-planet.jpeg">
+            <p class="specials">
+                <script>
+                    if (userType === ("purchasingAgent")) {
+                        document.write ("Pallet quantities of granola bars are 50% off!");
+                    } else {
+                        document.write ("Orders can be air dropped to remote colonies!");
+                    }
+                </script>
             <p>Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there--on a mote of dust suspended in a sunbeam.</p>
         </section>
         <section class="offerings-section">
@@ -40,6 +55,15 @@
         <section class="offerings-section">
             <h3>Handheld Snacks<br>for<br>Zero G Environments</h3>
             <img src="granola-bar.jpeg"/>
+            <p class="specials">
+                <script>
+                    if (userType === ("purchasingAgent")) {
+                        document.write ("Pallet quantities of granola bars are 50% off!");
+                    } // else {
+                    //     document.write ("Free shipping on orders of more than 10,000 credits!");
+                    // }
+                </script>
+            </p>
             <p>The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.</p>
         </section>
         <section class="offerings-section">
@@ -50,6 +74,9 @@
     </main>
     
     <footer>
+        <p></p>
+        <button id="subscribe">Click here to receive telepathic alerts.</button>
+        <p></p>
         <p>© 2022 Expanding Universe Caterers, LLC. Used with permission.</p>
     </footer>
 </body>
