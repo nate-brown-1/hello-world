@@ -16,6 +16,15 @@ h2 {
     text-align: center;
 }
 
-li {
-    display: inline;
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    text-align: center;
+}
+
+#index-section {
+    border-color: #D0D6D9;
+    border-width: thick;
 }
