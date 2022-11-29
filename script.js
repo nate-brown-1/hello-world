@@ -6,7 +6,7 @@ if (speciesNumber == 1) {
     window.alert("No problem!");
 }   else if (speciesNumber > 1) {
     window.alert("We have options for inhabitants of most systems!");
-}   else if ("") {
+}   else {
     window.alert("That's not helpful!");
 }
 
