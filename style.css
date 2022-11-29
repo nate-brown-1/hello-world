@@ -1,0 +1,21 @@
+body {
+    background-color: #0B260D;
+    color: #D0D6D9;
+}
+
+a {
+    color: #D0D6D9;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
