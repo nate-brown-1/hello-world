@@ -71,8 +71,8 @@ function rateThisPage() {
     pageScore = prompt("Please rate this page (1-5 octopi)");
     console.log(pageScore);
 
-    for (let i = 0; i < rating && i < 5; i++) {
+    for (let i = 0; i < pageScore && i < 5; i++) {
         console.log(i);
-        document.write('<img src="octopus.png" />');
+        document.write('<img style="width:20%" src="octopus.png" />');
     }
 }
